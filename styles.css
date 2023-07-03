@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,600;1,800;1,900&display=swap');
+
+:root {
+--background: #000000;
+--primary: 
+#ff8c00;
+--secondary: #000000;
+--text-gray: #b6b9bd;
+--text-white: #f5f1f1;
+--fire: #ff6d00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'montserrat';
+}
+
+body {
+    background: var(--background)
+}
+
+header {
+    background: var(--secondary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar,
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    gap: 5rem;
+}
+
+.navbar-list {
+    gap: 1rem;
+}
+
+.navbar-list a {
+    color: var(--text-gray);
+}
+
+.cart-icon {
+    padding: 5px 10px;
+    height: 75px;
+    cursor: pointer;
+
+}
+
+.Logo {
+    padding: 5px 10px;
+    height: 75px;
+    cursor: pointer;
+}
+
+main {
+    background: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+
+#hero {
+    max-width: 1200px;
+    margin-top: 65px;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 50%;
+}
+
+.hero-info h1 {
+font-size: 48px;
+font-weight: 800;
+width: 80%;
+min-width: 500px;
+}
+
+.hero-info p {
+font-size: 14px;
+width: 70%;
+color: var(--text-gray);
+}
+
+.hero-info a {
+    color: var(--text-white);
+    background: var(--primary);
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.info-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-white);
+    margin: 80px;
+    width: 1300px;
+    height: 150px;
+    padding: 0 150px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
