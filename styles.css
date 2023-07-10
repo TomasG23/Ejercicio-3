@@ -220,6 +220,34 @@ h3 {
     height: auto;
   }
 
+  footer {
+    background: var(--background);
+    color: var(--text-white);
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 0;
+  }
+
+  footer a,
+  footer p {
+    color: var(--text-white);
+    font-size: 14px;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 20px;
+  }
+
+  footer span {
+    font-weight: 800;
+  }
+
+
+
 
 
 
